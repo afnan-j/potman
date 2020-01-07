@@ -1,0 +1,22 @@
+{
+  "info": {
+    "_postman_id": "b3f6a199-0135-4f57-8a79-1d80db3904b6",
+    "name": "testafnan",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "test",
+      "_postman_id": "9853e6e9-1137-4654-8ff5-820bc84af53d",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "https://release.winfooz.com/"
+      },
+      "response": []
+    }
+  ]
+}
