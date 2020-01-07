@@ -1119,7 +1119,23 @@
                 "type": "text"
               }
             ],
-            "url": "{{host}}/v5/users/profile"
+            "url": {
+              "raw": "{{host}}/v5/users/profile?afnan",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "v5",
+                "users",
+                "profile"
+              ],
+              "query": [
+                {
+                  "key": "afnan",
+                  "value": null
+                }
+              ]
+            }
           },
           "response": []
         },
