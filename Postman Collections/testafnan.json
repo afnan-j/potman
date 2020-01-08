@@ -1,18 +1,1 @@
-{
 
-  "item": [
-    {
-      "name": "test",
-      "_postman_id": "9853e6e9-1137-4654-8ff5-820bc84af53d",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": "https://release.winfooz.com/"
-      },
-      
-    }
-  ]
-}
