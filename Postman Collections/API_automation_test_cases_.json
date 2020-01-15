@@ -8822,8 +8822,7 @@
 									"var DealershipRandName = \"DealershipName\" +  Math.floor(Math.random() * 9999999);",
 									"pm.globals.set(\"DealershipName\",DealershipRandName );",
 									"",
-									"var DealershipRandNum =   Math.floor(Math.random() * 99999
-99);",
+									"var DealershipRandNum =   Math.floor(Math.random() * 9999999);",
 									"pm.globals.set(\"DealershipNumber\",DealershipRandNum );"
 								],
 								"type": "text/javascript"
