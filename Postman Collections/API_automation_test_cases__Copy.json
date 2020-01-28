@@ -3059,6 +3059,58 @@
           "response": []
         },
         {
+          "name": "Makes and Models Copy",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "ea0a0145-0a9a-402a-a489-6b9a9d166e99",
+                "exec": [
+                  "",
+                  "var response = pm.response.json();",
+                  "",
+                  "pm.environment.set(\"odometer_reading_unit\",response.odometer_reading_units[0].id);",
+                  "pm.environment.set(\"transmission\", response.transmissions[0].id);",
+                  "pm.environment.set(\"body_type\", response.body_types[0].id);",
+                  "pm.environment.set(\"drive_type\", response.drive_types[0].id);",
+                  "pm.environment.set(\"engine_size\", response.engine_sizes[0].id);",
+                  "pm.environment.set(\"number_of_passengers\", response.number_of_passengers[0].id);",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "_postman_id": "690ad1e1-2de1-4ab7-948a-a67919a417ba",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/v1/car_options?with_models=1",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "v1",
+                "car_options"
+              ],
+              "query": [
+                {
+                  "key": "with_models",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": "## Params\n```\n\twith_models=1 to get the models in the make object\n```"
+          },
+          "response": []
+        },
+        {
           "name": "Add Car - MakeOffer",
           "event": [
             {
@@ -3970,58 +4022,6 @@
               "raw": "{\n\t\"proposal\": {\n\t\t\"type\": \"make_offer\",\n\t\t\"price\": {{OfferAmount}},\n\t\t\"validity_period\": \"24.0\"\n\t}\n}"
             },
             "url": "{{host}}/v4/cars/{{CarId}}/proposals"
-          },
-          "response": []
-        },
-        {
-          "name": "Makes and Models Copy",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "ea0a0145-0a9a-402a-a489-6b9a9d166e99",
-                "exec": [
-                  "",
-                  "var response = pm.response.json();",
-                  "",
-                  "pm.environment.set(\"odometer_reading_unit\",response.odometer_reading_units[0].id);",
-                  "pm.environment.set(\"transmission\", response.transmissions[0].id);",
-                  "pm.environment.set(\"body_type\", response.body_types[0].id);",
-                  "pm.environment.set(\"drive_type\", response.drive_types[0].id);",
-                  "pm.environment.set(\"engine_size\", response.engine_sizes[0].id);",
-                  "pm.environment.set(\"number_of_passengers\", response.number_of_passengers[0].id);",
-                  "",
-                  "",
-                  ""
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "_postman_id": "690ad1e1-2de1-4ab7-948a-a67919a417ba",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "{{host}}/v1/car_options?with_models=1",
-              "host": [
-                "{{host}}"
-              ],
-              "path": [
-                "v1",
-                "car_options"
-              ],
-              "query": [
-                {
-                  "key": "with_models",
-                  "value": "1"
-                }
-              ]
-            },
-            "description": "## Params\n```\n\twith_models=1 to get the models in the make object\n```"
           },
           "response": []
         }
