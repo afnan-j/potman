@@ -3626,6 +3626,352 @@
             "url": "{{host}}/v4/cars/{{CarId}}/proposals"
           },
           "response": []
+        },
+        {
+          "name": "Add Car - MakeOffer Copy",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "b3b26583-88f9-4eb9-bc66-ad9aa4d1b87e",
+                "exec": [
+                  "",
+                  "var Common201Tests = () => {",
+                  "var response_time =parseInt(pm.environment.get(\"response_time\"));",
+                  "var response = pm.response.json();",
+                  "",
+                  "pm.test(\"verify that request status is 201\", function () {",
+                  "  pm.response.to.have.status(201);",
+                  "});",
+                  "// Check Response Time is less than ",
+                  "pm.test(\"Verify that response time is less than\"+response_time , function()  {",
+                  "  pm.response.to.have.responseTime.below( response_time);",
+                  "});",
+                  "",
+                  "//Check if returned response is not null",
+                  "pm.test(\"Verify that response is not null\", function () {",
+                  "    pm.expect(response).to.not.eql(null);",
+                  "});",
+                  "}",
+                  "",
+                  "pm.environment.set(\"Common201Tests\",Common201Tests.toString());",
+                  "",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "id": "01762f84-84ca-4483-9ff9-983a315211f5",
+                "exec": [
+                  "var response = pm.response.json();",
+                  "",
+                  "eval(pm.environment.get(\"Common201Tests\"))();",
+                  "",
+                  "pm.test(\"Verify that the added car is a make offer car\", function () {",
+                  "    pm.expect(response.car.make_offer).to.eql(true);",
+                  "});",
+                  "",
+                  "// Save Car ID ",
+                  "pm.environment.set(\"CarId\", response.car.id);",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "_postman_id": "e4735f97-7441-46fd-8397-8e1b7fd84472",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "type": "text",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{AuthToken}}"
+              },
+              {
+                "key": "current-dealership-id",
+                "value": "{{DealershipId}}"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "description": "required",
+                  "key": "car_json_data",
+                  "type": "text",
+                  "value": "{\n\"car\":{\n\"title_status\": \"title_absent\",\n\"condition\":\"new\",\n\"save_commit\":\"save_and_activate\",\n\"sale_period\": \"30\",\n\"vin\":\"YV1TS90D3Y1113682\",\n\"odometer\":1400,\n\"odometer_reading_unit_id\":{{odometer_reading_unit}},\n\"number_of_keys_id\":171,\n\"odour_id\":173,\n\"make_id\":11,\n\"model_id\":260,\n\"year\":2017,\n\"trim_id\": 153,\n\"fuel_type_id\": 195,\n\"body_type_id\": {{body_type}},\n\"transmission_id\":{{transmission}},\n\"engine_size_id\":{{engine_size}},\n\"drive_type_id\":  {{drive_type}},\n\"interior_color_id\":1,\n\"exterior_color_id\":4,\n\"number_of_cylinders\":6,\n\"number_of_passengers_id\":{{number_of_passengers}},\n\"make_offer_reserve_amount\":500,\n\"make_offer\":true,\n\"options\":{\"make_offer\":{\"reserve_amount\":6000,\"start_amount\":3000,\"increment\":100, \"price\":3000}}\n\n}\n}"
+                },
+                {
+                  "description": "required",
+                  "key": "car[photos_attributes][1][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][1][position]",
+                  "value": "1",
+                  "type": "text"
+                },
+                {
+                  "description": "required",
+                  "key": "car[photos_attributes][2][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][2][position]",
+                  "value": "2",
+                  "type": "text"
+                },
+                {
+                  "description": "required",
+                  "key": "car[photos_attributes][3][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][3][position]",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "description": "required",
+                  "key": "car[photos_attributes][4][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][4][position]",
+                  "value": "4",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][5][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][5][position]",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "description": "required",
+                  "key": "",
+                  "type": "text",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "car[photos_attributes][6][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][6][position]",
+                  "value": "6",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][7][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][7][position]",
+                  "value": "7",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][8][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][8][position]",
+                  "value": "8",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][9][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][9][position]",
+                  "value": "9",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][10][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][10][position]",
+                  "value": "10",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][11][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][11][position]",
+                  "value": "11",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][12][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][12][position]",
+                  "value": "12",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][13][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][13][position]",
+                  "value": "13",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][14][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][14][position]",
+                  "value": "14",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][15][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][15][position]",
+                  "value": "15",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][16][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][16][position]",
+                  "value": "16",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][17][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][17][position]",
+                  "value": "17",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][18][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][18][position]",
+                  "value": "18",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][19][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][19][position]",
+                  "value": "19",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][20][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][20][position]",
+                  "value": "20",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][21][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][21][position]",
+                  "value": "21",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][22][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][22][position]",
+                  "value": "1",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][22][kind]",
+                  "value": "interior",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][23][attachment]",
+                  "type": "file",
+                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                },
+                {
+                  "key": "car[photos_attributes][23][position]",
+                  "value": "2",
+                  "type": "text"
+                },
+                {
+                  "key": "car[photos_attributes][23][kind]",
+                  "value": "interior",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{host}}/v1/owned_cars"
+          },
+          "response": []
         }
       ],
       "_postman_id": "54416e90-dbc7-4f1c-b0cf-5ffa748a2428"
