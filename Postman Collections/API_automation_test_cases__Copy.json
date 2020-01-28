@@ -3405,229 +3405,6 @@
           "response": []
         },
         {
-          "name": "Selling Cars-active",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "286406b3-ed68-47f8-90ff-a82dfe3fdc57",
-                "exec": [
-                  "var response = pm.response.json();",
-                  "var response_time =parseInt(pm.environment.get(\"response_time\"));",
-                  "",
-                  "//Check if the car appear in selling active tab ",
-                  "var CarsLength = response.cars.length;",
-                  "var flag = false;",
-                  "for(var i = 0; i < CarsLength; i++) {",
-                  "  if(response.cars[i].id == pm.globals.get(\"CarId\")) {",
-                  "    flag = true;",
-                  "    console.log(flag)",
-                  "  }",
-                  "}",
-                  "",
-                  "",
-                  "eval(pm.environment.get(\"Common200OkTests\"))();",
-                  "",
-                  "// pm.test(\"Verify that the car exists in the selling active tab \", function () {",
-                  "//     pm.expect(flag).to.eql(true);",
-                  "// });"
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "_postman_id": "443fbead-ebf5-4326-861b-0241e7b3cf7c",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "Authorization",
-                "value": "{{AuthToken}}",
-                "type": "text"
-              },
-              {
-                "key": "current-dealership-id",
-                "value": "{{DealershipId}}",
-                "type": "text"
-              }
-            ],
-            "url": {
-              "raw": "{{host}}/v4/owned_cars?q[status]=active",
-              "host": [
-                "{{host}}"
-              ],
-              "path": [
-                "v4",
-                "owned_cars"
-              ],
-              "query": [
-                {
-                  "key": "q[status]",
-                  "value": "active"
-                }
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "SSO login grant-type password - buyer",
-          "event": [
-            {
-              "listen": "prerequest",
-              "script": {
-                "id": "8fd5ed71-9e43-4893-a2d5-095900bec863",
-                "exec": [
-                  "// set password ",
-                  "pm.environment.set(\"password\", \"12345678a\");"
-                ],
-                "type": "text/javascript"
-              }
-            },
-            {
-              "listen": "test",
-              "script": {
-                "id": "9698007c-f6cc-44e9-97d7-c3631ca24a28",
-                "exec": [
-                  "",
-                  "eval(pm.environment.get(\"Common200OkTests\"))();",
-                  "",
-                  "var response = pm.response.json();",
-                  "//Set variables",
-                  "pm.environment.set(\"AuthToken\", \"Bearer \" + response.access_token);",
-                  ""
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "_postman_id": "fbd0b53a-835c-49ff-8ba5-c414de088279",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [
-              {
-                "key": "Content-Type",
-                "name": "Content-Type",
-                "value": "application/json",
-                "type": "text"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\n\t\"grant_type\": \"password\",\n\t\"email\": \"{{BuyerEmail}}\",\n\t\"password\": \"{{password}}\"\n}"
-            },
-            "url": "{{host}}/v1/oauth/token"
-          },
-          "response": []
-        },
-        {
-          "name": "Profile SSO",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "6cdde29e-af8f-41fa-9922-91ce4669ce65",
-                "exec": [
-                  "",
-                  "eval(pm.environment.get(\"Common200OkTests\"))();",
-                  "",
-                  "//Set variables take delearship id ",
-                  "var response = pm.response.json();",
-                  "pm.environment.set(\"DealershipId\", response.user.dealerships[0].id);",
-                  "    ",
-                  "  ",
-                  ""
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "_postman_id": "9b18561f-b239-42bd-a77c-123660b1fa9a",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "Authorization",
-                "value": "{{AuthToken}}",
-                "type": "text"
-              }
-            ],
-            "url": "{{host}}/v5/users/profile"
-          },
-          "response": []
-        },
-        {
-          "name": "Create Proposal _ Make-Offer",
-          "event": [
-            {
-              "listen": "prerequest",
-              "script": {
-                "id": "0206d741-e90e-463f-89b1-d5c0dcce9013",
-                "exec": [
-                  "pm.environment.set(\"OfferAmount\", \"6000\");"
-                ],
-                "type": "text/javascript"
-              }
-            },
-            {
-              "listen": "test",
-              "script": {
-                "id": "9495eb8c-77ba-4f54-b968-81638219cb67",
-                "exec": [
-                  "",
-                  "eval(pm.environment.get(\"Common201Tests\"))();",
-                  "",
-                  "// get the offer id ",
-                  "var response =  pm.response.json();",
-                  "pm.environment.set(\"OfferId\", response.proposal.id);",
-                  ""
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "_postman_id": "a0eede78-0c4e-4a66-bbf1-1b9d794fc4f1",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [
-              {
-                "key": "Content-Type",
-                "name": "Content-Type",
-                "type": "text",
-                "value": "application/json"
-              },
-              {
-                "key": "current-dealership-id",
-                "type": "text",
-                "value": "{{DealershipId}}"
-              },
-              {
-                "key": "Authorization",
-                "value": "{{AuthToken}}",
-                "type": "text"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\n\t\"proposal\": {\n\t\t\"type\": \"make_offer\",\n\t\t\"price\": {{OfferAmount}},\n\t\t\"validity_period\": \"24.0\"\n\t}\n}"
-            },
-            "url": "{{host}}/v4/cars/{{CarId}}/proposals"
-          },
-          "response": []
-        },
-        {
           "name": "Add Car - MakeOffer Copy",
           "event": [
             {
@@ -3970,6 +3747,229 @@
               ]
             },
             "url": "{{host}}/v1/owned_cars"
+          },
+          "response": []
+        },
+        {
+          "name": "Selling Cars-active",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "286406b3-ed68-47f8-90ff-a82dfe3fdc57",
+                "exec": [
+                  "var response = pm.response.json();",
+                  "var response_time =parseInt(pm.environment.get(\"response_time\"));",
+                  "",
+                  "//Check if the car appear in selling active tab ",
+                  "var CarsLength = response.cars.length;",
+                  "var flag = false;",
+                  "for(var i = 0; i < CarsLength; i++) {",
+                  "  if(response.cars[i].id == pm.globals.get(\"CarId\")) {",
+                  "    flag = true;",
+                  "    console.log(flag)",
+                  "  }",
+                  "}",
+                  "",
+                  "",
+                  "eval(pm.environment.get(\"Common200OkTests\"))();",
+                  "",
+                  "// pm.test(\"Verify that the car exists in the selling active tab \", function () {",
+                  "//     pm.expect(flag).to.eql(true);",
+                  "// });"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "_postman_id": "443fbead-ebf5-4326-861b-0241e7b3cf7c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{AuthToken}}",
+                "type": "text"
+              },
+              {
+                "key": "current-dealership-id",
+                "value": "{{DealershipId}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/v4/owned_cars?q[status]=active",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "v4",
+                "owned_cars"
+              ],
+              "query": [
+                {
+                  "key": "q[status]",
+                  "value": "active"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "SSO login grant-type password - buyer",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "8fd5ed71-9e43-4893-a2d5-095900bec863",
+                "exec": [
+                  "// set password ",
+                  "pm.environment.set(\"password\", \"12345678a\");"
+                ],
+                "type": "text/javascript"
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "id": "9698007c-f6cc-44e9-97d7-c3631ca24a28",
+                "exec": [
+                  "",
+                  "eval(pm.environment.get(\"Common200OkTests\"))();",
+                  "",
+                  "var response = pm.response.json();",
+                  "//Set variables",
+                  "pm.environment.set(\"AuthToken\", \"Bearer \" + response.access_token);",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "_postman_id": "fbd0b53a-835c-49ff-8ba5-c414de088279",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"grant_type\": \"password\",\n\t\"email\": \"{{BuyerEmail}}\",\n\t\"password\": \"{{password}}\"\n}"
+            },
+            "url": "{{host}}/v1/oauth/token"
+          },
+          "response": []
+        },
+        {
+          "name": "Profile SSO",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "6cdde29e-af8f-41fa-9922-91ce4669ce65",
+                "exec": [
+                  "",
+                  "eval(pm.environment.get(\"Common200OkTests\"))();",
+                  "",
+                  "//Set variables take delearship id ",
+                  "var response = pm.response.json();",
+                  "pm.environment.set(\"DealershipId\", response.user.dealerships[0].id);",
+                  "    ",
+                  "  ",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "_postman_id": "9b18561f-b239-42bd-a77c-123660b1fa9a",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{AuthToken}}",
+                "type": "text"
+              }
+            ],
+            "url": "{{host}}/v5/users/profile"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Proposal _ Make-Offer",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "0206d741-e90e-463f-89b1-d5c0dcce9013",
+                "exec": [
+                  "pm.environment.set(\"OfferAmount\", \"6000\");"
+                ],
+                "type": "text/javascript"
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "id": "9495eb8c-77ba-4f54-b968-81638219cb67",
+                "exec": [
+                  "",
+                  "eval(pm.environment.get(\"Common201Tests\"))();",
+                  "",
+                  "// get the offer id ",
+                  "var response =  pm.response.json();",
+                  "pm.environment.set(\"OfferId\", response.proposal.id);",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "_postman_id": "a0eede78-0c4e-4a66-bbf1-1b9d794fc4f1",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              },
+              {
+                "key": "current-dealership-id",
+                "type": "text",
+                "value": "{{DealershipId}}"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{AuthToken}}",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"proposal\": {\n\t\t\"type\": \"make_offer\",\n\t\t\"price\": {{OfferAmount}},\n\t\t\"validity_period\": \"24.0\"\n\t}\n}"
+            },
+            "url": "{{host}}/v4/cars/{{CarId}}/proposals"
           },
           "response": []
         }
