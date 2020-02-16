@@ -1,3 +1,6 @@
+
+
+
 {
   "info": {
     "_postman_id": "8dcab107-223b-4089-91df-c0719f6d0c9b",
@@ -278,7 +281,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -289,7 +293,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -300,7 +305,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -311,7 +317,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -321,7 +328,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -338,7 +346,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -348,7 +357,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -358,7 +368,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -368,7 +379,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -378,7 +390,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -388,7 +401,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -398,7 +412,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -408,7 +423,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -418,7 +434,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -428,7 +445,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -438,7 +456,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -448,7 +467,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -458,7 +478,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -468,7 +489,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -478,7 +500,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -488,7 +511,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -498,7 +522,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -513,7 +538,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -1284,7 +1310,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -1295,7 +1322,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -1306,7 +1334,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -1317,7 +1346,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -1327,7 +1357,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -1344,7 +1375,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -1354,7 +1386,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -1364,7 +1397,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -1374,7 +1408,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -1384,7 +1419,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -1394,7 +1430,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -1404,7 +1441,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -1414,7 +1452,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -1424,7 +1463,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -1434,7 +1474,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -1444,7 +1485,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -1454,7 +1496,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -1464,7 +1507,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -1474,7 +1518,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -1484,7 +1529,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -1494,7 +1540,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -1504,7 +1551,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -1519,7 +1567,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -2237,7 +2286,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -2248,7 +2298,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -2259,7 +2310,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -2270,7 +2322,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -2280,7 +2333,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -2297,7 +2351,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -2307,7 +2362,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -2317,7 +2373,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -2327,7 +2384,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -2337,7 +2395,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -2347,7 +2406,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -2357,7 +2417,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -2367,7 +2428,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -2377,7 +2439,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -2387,7 +2450,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -2397,7 +2461,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -2407,7 +2472,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -2417,7 +2483,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -2427,7 +2494,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -2437,7 +2505,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -2447,7 +2516,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -2457,7 +2527,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -2472,7 +2543,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -3151,7 +3223,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -3162,7 +3235,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -3173,7 +3247,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -3184,7 +3259,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -3194,7 +3270,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -3211,7 +3288,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -3221,7 +3299,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -3231,7 +3310,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -3241,7 +3321,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -3251,7 +3332,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -3261,7 +3343,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -3271,7 +3354,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -3281,7 +3365,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -3291,7 +3376,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -3301,7 +3387,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -3311,7 +3398,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -3321,7 +3409,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -3331,7 +3420,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -3341,7 +3431,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -3351,7 +3442,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -3361,7 +3453,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -3371,7 +3464,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -3386,7 +3480,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -3899,7 +3994,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -3910,7 +4006,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -3921,7 +4018,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -3932,7 +4030,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -3942,7 +4041,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -3959,7 +4059,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -3969,7 +4070,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -3979,7 +4081,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -3989,7 +4092,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -3999,7 +4103,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -4009,7 +4114,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -4019,7 +4125,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -4029,7 +4136,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -4039,7 +4147,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -4049,7 +4158,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -4059,7 +4169,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -4069,7 +4180,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -4079,7 +4191,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -4089,7 +4202,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -4099,7 +4213,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -4109,7 +4224,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -4119,7 +4235,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -4134,7 +4251,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -4616,7 +4734,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -4627,7 +4746,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -4638,7 +4758,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -4649,7 +4770,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -4659,7 +4781,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -4676,7 +4799,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -4686,7 +4810,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -4696,7 +4821,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -4706,7 +4832,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -4716,7 +4843,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -4726,7 +4854,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -4736,7 +4865,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -4746,7 +4876,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -4756,7 +4887,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -4766,7 +4898,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -4776,7 +4909,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -4786,7 +4920,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -4796,7 +4931,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -4806,7 +4942,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -4816,7 +4953,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -4826,7 +4964,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -4836,7 +4975,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -4851,7 +4991,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -5454,7 +5595,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -5465,7 +5607,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -5476,7 +5619,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -5487,7 +5631,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -5497,7 +5642,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -5514,7 +5660,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -5524,7 +5671,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -5534,7 +5682,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -5544,7 +5693,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -5554,7 +5704,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -5564,7 +5715,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -5574,7 +5726,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -5584,7 +5737,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -5594,7 +5748,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -5604,7 +5759,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -5614,7 +5770,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -5624,7 +5781,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -5634,7 +5792,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -5644,7 +5803,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -5654,7 +5814,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -5664,7 +5825,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -5674,7 +5836,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -5689,7 +5852,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -6161,7 +6325,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -6172,7 +6337,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -6183,7 +6349,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -6194,7 +6361,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -6204,7 +6372,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -6221,7 +6390,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -6231,7 +6401,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -6241,7 +6412,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -6251,7 +6423,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -6261,7 +6434,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -6271,7 +6445,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -6281,7 +6456,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -6291,7 +6467,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -6301,7 +6478,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -6311,7 +6489,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -6321,7 +6500,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -6331,7 +6511,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -6341,7 +6522,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -6351,7 +6533,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -6361,7 +6544,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -6371,7 +6555,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -6381,7 +6566,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -6396,7 +6582,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -7644,7 +7831,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -7655,7 +7843,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -7666,7 +7855,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -7677,7 +7867,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -7687,7 +7878,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -7704,7 +7896,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -7714,7 +7907,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -7724,7 +7918,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -7734,7 +7929,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -7744,7 +7940,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -7754,7 +7951,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -7764,7 +7962,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -7774,7 +7973,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -7784,7 +7984,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -7794,7 +7995,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -7804,7 +8006,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -7814,7 +8017,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -7824,7 +8028,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -7834,7 +8039,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -7844,7 +8050,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -7854,7 +8061,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -7864,7 +8072,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -7879,7 +8088,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
@@ -8187,7 +8397,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][1][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][1][position]",
@@ -8198,7 +8409,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][2][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][2][position]",
@@ -8209,7 +8421,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][3][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][3][position]",
@@ -8220,7 +8433,8 @@
                   "description": "required",
                   "key": "car[photos_attributes][4][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][4][position]",
@@ -8230,7 +8444,8 @@
                 {
                   "key": "car[photos_attributes][5][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][5][position]",
@@ -8247,7 +8462,8 @@
                 {
                   "key": "car[photos_attributes][6][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][6][position]",
@@ -8257,7 +8473,8 @@
                 {
                   "key": "car[photos_attributes][7][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][7][position]",
@@ -8267,7 +8484,8 @@
                 {
                   "key": "car[photos_attributes][8][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][8][position]",
@@ -8277,7 +8495,8 @@
                 {
                   "key": "car[photos_attributes][9][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][9][position]",
@@ -8287,7 +8506,8 @@
                 {
                   "key": "car[photos_attributes][10][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][10][position]",
@@ -8297,7 +8517,8 @@
                 {
                   "key": "car[photos_attributes][11][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][11][position]",
@@ -8307,7 +8528,8 @@
                 {
                   "key": "car[photos_attributes][12][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][12][position]",
@@ -8317,7 +8539,8 @@
                 {
                   "key": "car[photos_attributes][13][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][13][position]",
@@ -8327,7 +8550,8 @@
                 {
                   "key": "car[photos_attributes][14][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][14][position]",
@@ -8337,7 +8561,8 @@
                 {
                   "key": "car[photos_attributes][15][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][15][position]",
@@ -8347,7 +8572,8 @@
                 {
                   "key": "car[photos_attributes][16][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][16][position]",
@@ -8357,7 +8583,8 @@
                 {
                   "key": "car[photos_attributes][17][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][17][position]",
@@ -8367,7 +8594,8 @@
                 {
                   "key": "car[photos_attributes][18][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][18][position]",
@@ -8377,7 +8605,8 @@
                 {
                   "key": "car[photos_attributes][19][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][19][position]",
@@ -8387,7 +8616,8 @@
                 {
                   "key": "car[photos_attributes][20][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][20][position]",
@@ -8397,7 +8627,8 @@
                 {
                   "key": "car[photos_attributes][21][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][21][position]",
@@ -8407,7 +8638,8 @@
                 {
                   "key": "car[photos_attributes][22][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][22][position]",
@@ -8422,7 +8654,8 @@
                 {
                   "key": "car[photos_attributes][23][attachment]",
                   "type": "file",
-                  "src": "/C:/Users/winfooz/Downloads/pics/7.jpg"
+                  "src": "/home/winfooz/Downloads/1.jpg
+"
                 },
                 {
                   "key": "car[photos_attributes][23][position]",
